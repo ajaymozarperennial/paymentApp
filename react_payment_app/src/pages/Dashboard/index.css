@@ -1,0 +1,83 @@
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: grey;
+  position: fixed;
+  height: 100vh;
+  overflow: auto;
+  /* margin-top: 60px; */
+}
+
+.sidebar>li>a {
+  display: flex;
+  color: black;
+  padding: 14px;
+  text-decoration: none;
+  align-items: center;
+}
+
+/* Active/current link */
+.sidebar>li>a.active {
+  background-color: blueviolet;
+  color: white;
+}
+
+/* Links on mouse-over */
+.sidebar>li>a:hover:not(.active) {
+  background-color: rgb(250, 12, 12);
+  color: black;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  /* height: 1000px; */
+}
+
+.topnav {
+  overflow: hidden;
+  padding: 0px 10px;
+  margin: 0;
+  background-color: skyblue;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.topnav>a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+
+}
+
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.header > li {
+  list-style: none;
+  padding: 20px 10px;
+}
+.header > li:hover{
+  background-color: aqua
+}
+
+.header > li > a{
+  text-decoration: none;
+}
+
+.header > li > a:hover{
+  text-decoration: none;
+}
+
+/* div {
+  background-color: blueviolet;
+} */
